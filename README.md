@@ -1,5 +1,5 @@
 
-# Supply Chain Inventory Management System  
+# Supply Chain Inventory Management System (Smart Inventory)
 
 A custom Odoo module for inventory optimization and supplier performance tracking, developed to showcase problem-solving skills in supply chain management.  
 
@@ -17,3 +17,12 @@ A custom Odoo module for inventory optimization and supplier performance trackin
 - **Backend**: Python, Odoo 17  
 - **Database**: PostgreSQL  
 - **Frontend**: XML, Odoo ORM  
+
+## 📸 Screenshots  
+![image](https://github.com/user-attachments/assets/ba429b8f-085d-4223-81b7-3d0633370015)
+![image](https://github.com/user-attachments/assets/67e0d61d-59a3-4d77-84d0-d7b3eb7c6a3d)
+
+## 📂 Installation  
+1. Clone the repo:  
+   ```bash  
+   git clone https://github.com/Bahauddinnafis/supply-chain-odoo.git  
