@@ -10,11 +10,11 @@ A custom Odoo module for inventory optimization and supplier performance trackin
 - **Multi-Warehouse Support**: Manage stock across multiple locations.  
 
 ## 💡 Why This Project?  
-- Aligns with Unilever’s sustainability goals through efficient inventory management.  
+- Aligns sustainability goals through efficient inventory management.  
 - Demonstrates technical ability to integrate ERP systems with supply chain operations.  
 
 ## 🛠️ Tech Stack  
-- **Backend**: Python, Odoo 17  
+- **Backend**: Python, Odoo 17 , Docker 
 - **Database**: PostgreSQL  
 - **Frontend**: XML, Odoo ORM  
 
