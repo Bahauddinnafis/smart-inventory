@@ -1,0 +1,43 @@
+<odoo>
+  <data>
+    <record id="product_1" model="smart.inventory">
+            <field name="name">Laptop ASUS</field>
+            <field name="current_stock">8</field>
+            <field name="min_stock">15</field>
+            <field name="supplier">PT Elektronik Maju</field>
+            <field name="image">supply_chain/static/img/laptop-asus.jpg</field>
+        </record>
+
+        <record id="product_2" model="smart.inventory">
+            <field name="name">Kertas A4</field>
+            <field name="current_stock">120</field>
+            <field name="min_stock">200</field>
+            <field name="supplier">PT Paperindo</field>
+            <field name="image">supply_chain/static/img/kertas-a4.jpg</field>
+        </record>
+
+        <record id="product_3" model="smart.inventory">
+            <field name="name">Bola Sepak</field>
+            <field name="current_stock">25</field>
+            <field name="min_stock">30</field>
+            <field name="supplier">CV Olahraga Jaya</field>
+            <field name="image">supply_chain/static/img/bola-sepak.jpg</field>
+        </record>
+
+        <record id="product_4" model="smart.inventory">
+            <field name="name">Mouse Logitech</field>
+            <field name="current_stock">50</field>
+            <field name="min_stock">30</field>
+            <field name="supplier">PT Gadget Nusantara</field>
+            <field name="image">supply_chain/static/img/mouse-logitech.jpg</field>
+        </record>
+
+        <record id="product_5" model="smart.inventory">
+            <field name="name">Pensil 2B</field>
+            <field name="current_stock">200</field>
+            <field name="min_stock">150</field>
+            <field name="supplier">CV Alat Tulis Sejahtera</field>
+            <field name="image">supply_chain/static/img/pensil-2b.jpg</field>
+        </record>
+  </data>
+</odoo>

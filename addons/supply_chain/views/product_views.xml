@@ -1,0 +1,45 @@
+<odoo>
+  <data>
+     <!-- Tampilan Daftar Produk -->
+    <record id="view_smart_inventory_tree" model="ir.ui.view">
+        <field name="name">Daftar Stok Produk</field>
+        <field name="model">smart.inventory</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="image" widget="image" class="oe_avatar"/>
+                <field name="name"/>
+                <field name="current_stock"/>
+                <field name="min_stock"/>
+                <field name="supplier"/>
+                <field name="forecast_demand"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Tampilan Dashboard -->
+    <record id="view_supplier_graph" model="ir.ui.view">
+        <field name="name">Kinerja Supplier</field>
+        <field name="model">smart.inventory</field>
+        <field name="arch" type="xml">
+            <graph type="bar">
+                <field name="supplier"/>
+                <field name="last_delivery_time" operator="avg"/>
+                <field name="supplier_rating" operator="avg"/>
+            </graph>
+        </field>
+    </record>
+
+     <!-- Action -->
+    <record id="action_smart_inventory" model="ir.actions.act_window">
+        <field name="name">Daftar Stok</field>
+        <field name="res_model">smart.inventory</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu -->
+    <menuitem id="menu_smart_inventory" name="Smart Inventory"/>
+    <menuitem id="menu_smart_inventory_sub" 
+              parent="menu_smart_inventory" 
+              action="action_smart_inventory"/>
+  </data>
+</odoo>

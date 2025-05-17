@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_smart_inventory,smart.inventory,model_smart_inventory,base.group_user,1,1,1,1
+access_smart_inventory_manager,smart.inventory,model_smart_inventory,stock.group_stock_manager,1,1,1,1
+access_smart_inventory_history,smart.inventory.history,model_smart_inventory_history,base.group_user,1,1,1,1

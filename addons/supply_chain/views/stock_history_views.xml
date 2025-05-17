@@ -1,0 +1,39 @@
+<odoo>
+  <data>
+      <!-- Tampilan Riwayat Stok -->
+        <record id="view_smart_history_tree" model="ir.ui.view">
+            <field name="name">Daftar Riwayat Stok</field>
+            <field name="model">smart.inventory.history</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="date"/>
+                    <field name="qty"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_smart_history_form" model="ir.ui.view">
+            <field name="name">Form Riwayat Stok</field>
+            <field name="model">smart.inventory.history</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="product_id"/>
+                        <field name="qty"/>
+                        <field name="date"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action untuk Riwayat Stok -->
+        <record id="action_smart_history" model="ir.actions.act_window">
+            <field name="name">Riwayat Stok</field>
+            <field name="res_model">smart.inventory.history</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Tambahkan Menu Riwayat Stok -->
+        <menuitem id="menu_smart_history" name="Riwayat Stok" parent="menu_smart_inventory" action="action_smart_history"/>
+  </data>
+</odoo>
