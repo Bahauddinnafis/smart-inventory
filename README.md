@@ -14,9 +14,9 @@ A custom Odoo module for inventory optimization and supplier performance trackin
 - Demonstrates technical ability to integrate ERP systems with supply chain operations.  
 
 ## 🛠️ Tech Stack  
-- **Backend**: Python, Odoo 17 , Docker 
-- **Database**: PostgreSQL  
-- **Frontend**: XML, Odoo ORM  
+- **Python, Odoo 17 , Docker** 
+- **PostgreSQL**  
+- **XML, Odoo ORM**  
 
 ## 📸 Screenshots  
 ![image](https://github.com/user-attachments/assets/ba429b8f-085d-4223-81b7-3d0633370015)
